@@ -1,3 +1,4 @@
+#if os(iOS)
 import SwiftUI
 import UIKit
 
@@ -67,4 +68,5 @@ open class BackgroundBlurView: UIVisualEffectView {
     }
     .ignoresSafeArea()
 }
+#endif
 #endif
